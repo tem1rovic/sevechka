@@ -9,7 +9,11 @@
 @media (max-width: 768px) {
   .banner__section .banner {
     height: 160px;
-    flex-direction: column;
+  }
+}
+@media (max-width: 420px) {
+  .banner__section .banner {
+    height: 80px;
   }
 }
 .banner__section .banner img {
@@ -25,7 +29,11 @@
 @media (max-width: 768px) {
   .banner__section .banner img {
     max-width: 198px;
-    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .banner__section .banner img {
+    display: none;
   }
 }
 @media (max-width: 1100px) {

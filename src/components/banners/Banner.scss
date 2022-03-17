@@ -6,7 +6,9 @@
     align-items: center;
     @media (max-width: 768px) {
       height: 160px;
-      flex-direction: column;
+    }
+    @media (max-width: 420px) {
+      height: 80px;
     }
 
     img {
@@ -18,11 +20,10 @@
       }
       @media (max-width: 768px) {
         max-width: 198px;
-        margin-bottom: 10px;
       }
-      //   @media (max-width: 600px) {
-      //     display: none;
-      //   }
+      @media (max-width: 600px) {
+        display: none;
+      }
     }
 
     h2 {
