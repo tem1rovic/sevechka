@@ -1,4 +1,5 @@
 import React from 'react'
+import './Header.css'
 
 function Header() {
   return (
@@ -6,9 +7,10 @@ function Header() {
         <header className='header__section'>
             <div className="container">
                 <div className="header">
-                    <div className="logo-img">
-                        <img src="images/logo-line-shape.png" alt="logo" width={152} />
-                    </div>
+                    <a href='#' className="logo-img">
+                        <img src="images/logo-self.png" alt="" className="mobile-img" />
+                        <img className='desktop-img' src="images/logo-line-shape.png" alt="logo" width={152} />
+                    </a>
                     <button className="header__btn">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 

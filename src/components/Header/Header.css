@@ -1,1 +1,150 @@
-/* No CSS *//*# sourceMappingURL=Header.css.map */
+.header__section {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header__section .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  gap: 10px;
+}
+.header__section .header .logo-img {
+  max-width: 152px;
+  flex-shrink: 0;
+}
+@media (max-width: 991px) {
+  .header__section .header .logo-img {
+    width: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .header__section .header .logo-img .desktop-img {
+    display: none;
+  }
+}
+.header__section .header .logo-img .mobile-img {
+  display: none;
+}
+@media (max-width: 991px) {
+  .header__section .header .logo-img .mobile-img {
+    width: 50px;
+    height: auto;
+    display: block;
+  }
+}
+.header__section .header__btn {
+  max-width: 140px;
+  width: 100%;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  background: #70c05b;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .header__section .header__btn {
+    max-width: 40px;
+  }
+}
+@media (max-width: 672px) {
+  .header__section .header__btn {
+    display: none;
+  }
+}
+.header__section .header__btn span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+@media (max-width: 768px) {
+  .header__section .header__btn span {
+    display: none;
+  }
+}
+.header__section .header__label {
+  position: relative;
+  max-width: 375px;
+  width: 100%;
+  border-radius: 4px;
+  margin-right: auto;
+}
+.header__section .header__label input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #bfbfbf;
+  padding: 8px 16px;
+  color: #8f8f8f;
+  border-radius: 4px;
+}
+.header__section .header__label input:focus {
+  border: 1px solid #70c05b;
+  box-shadow: 4px 8px 16px rgba(112, 192, 91, 0.2);
+}
+.header__section .header__label svg {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+.header__section .header .tool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+@media (max-width: 1100px) {
+  .header__section .header .tool {
+    margin-left: auto;
+  }
+}
+@media (max-width: 672px) {
+  .header__section .header .tool {
+    display: none;
+  }
+}
+.header__section .header .tool > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8.5px;
+  cursor: pointer;
+}
+.header__section .header .tool > div:first-child {
+  gap: 12px;
+}
+.header__section .header .profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-left: 40px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+@media (max-width: 1100px) {
+  .header__section .header .profile {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .header__section .header .profile {
+    display: none;
+  }
+}
+.header__section .header .profile span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 1100px) {
+  .header__section .header .profile span {
+    display: none;
+  }
+}/*# sourceMappingURL=Header.css.map */
