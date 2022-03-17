@@ -37,9 +37,9 @@
   width: 100%;
   margin-left: auto;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   padding: 8px;
   background: #70c05b;
   border-radius: 4px;
@@ -130,11 +130,6 @@
 @media (max-width: 1100px) {
   .header__section .header .profile {
     margin-left: 10px;
-  }
-}
-@media (max-width: 480px) {
-  .header__section .header .profile {
-    display: none;
   }
 }
 .header__section .header .profile span {
