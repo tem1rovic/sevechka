@@ -1,0 +1,69 @@
+// Reset sytle
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+// Common
+aside,
+header,
+nav,
+footer,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
