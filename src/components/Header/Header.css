@@ -47,6 +47,12 @@
   height: 40px;
   cursor: pointer;
 }
+.header__section .header__btn:hover {
+  box-shadow: 4px 8px 16px rgba(112, 192, 91, 0.2);
+}
+.header__section .header__btn:active {
+  box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
 @media (max-width: 768px) {
   .header__section .header__btn {
     max-width: 40px;

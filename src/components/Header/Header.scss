@@ -43,6 +43,14 @@
       color: #fff;
       height: 40px;
       cursor: pointer;
+
+      &:hover {
+        box-shadow: 4px 8px 16px rgba(112, 192, 91, 0.2);
+      }
+
+      &:active {
+        box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
+      }
       @media (max-width: 768px) {
         max-width: 40px;
       }
