@@ -28,6 +28,19 @@ h5 {
   line-height: 150%;
   color: $surfaceText;
 }
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: $surfaceText;
+}
+
+p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #bfbfbf;
+}
 
 @media (max-width: 768px) {
   h1 {

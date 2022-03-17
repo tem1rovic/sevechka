@@ -55,4 +55,67 @@
   .banner__section .banner h2 {
     font-size: 18px;
   }
+}
+
+.offerRed__banner {
+  max-width: 584px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 4px 8px rgba(255, 102, 51, 0.2);
+  background: #fcd5ba;
+  border-radius: 4px;
+  transition: all 300ms ease;
+}
+.offerRed__banner:hover {
+  box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+}
+.offerRed__banner-info {
+  padding: 30px 20px 44px 40px;
+}
+.offerRed__banner-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+}
+.offerRed__banner-img {
+  max-width: 207px;
+  width: 100%;
+}
+.offerRed__banner-img img {
+  width: 100%;
+  transform: scale(1.25);
+}
+
+.offerGreen__banner {
+  max-width: 584px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 4px 8px rgba(112, 192, 91, 0.2);
+  background: #e5ffde;
+  border-radius: 4px;
+  transition: all 300ms ease;
+}
+.offerGreen__banner:hover {
+  box-shadow: 4px 8px 16px rgba(112, 192, 91, 0.2);
+}
+.offerGreen__banner-info {
+  padding: 30px 20px 44px 40px;
+}
+.offerGreen__banner-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+}
+.offerGreen__banner-img {
+  max-width: 207px;
+  width: 100%;
+}
+.offerGreen__banner-img img {
+  width: 100%;
 }/*# sourceMappingURL=Banner.css.map */

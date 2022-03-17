@@ -1,29 +1,63 @@
 .container {
-    max-width: 1248px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: auto;
-    margin-left: auto;
+  max-width: 1248px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
 
-    @media (max-width: 992px) {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    @media (max-width: 768px) {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+  @media (max-width: 992px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media (max-width: 768px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
-*, *::after, *::before {
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p, input, label, select, textarea, span {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+label,
+select,
+textarea,
+span {
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-family: "Rubik",serif;
+  font-family: "Rubik", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #606060;
+}
+
+body {
+  background: #fbf8ec;
+}
+
+.gap40 {
+  height: 40px;
+}
+
+.gap80 {
+  height: 80px;
+}
+
+.gap120 {
+  height: 120px;
 }

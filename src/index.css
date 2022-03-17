@@ -312,6 +312,20 @@ h5 {
   color: #414141;
 }
 
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+}
+
+p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #bfbfbf;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 3rem;
@@ -353,15 +367,49 @@ h5 {
   }
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p, input, label, select, textarea, span {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+label,
+select,
+textarea,
+span {
   margin: 0;
   padding: 0;
 }
 
 html {
   font-family: "Rubik", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #606060;
+}
+
+body {
+  background: #fbf8ec;
+}
+
+.gap40 {
+  height: 40px;
+}
+
+.gap80 {
+  height: 80px;
+}
+
+.gap120 {
+  height: 120px;
 }/*# sourceMappingURL=index.css.map */

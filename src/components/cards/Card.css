@@ -1,0 +1,79 @@
+.card {
+  margin-top: 20px;
+  max-width: 272px;
+  width: 100%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.card:hover {
+  box-shadow: 4px 8px 16px rgba(112, 192, 91, 0.2);
+}
+.card__img {
+  position: relative;
+}
+.card__img span,
+.card__img svg {
+  position: absolute;
+}
+.card__img img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.card__img svg {
+  top: 8px;
+  right: 8px;
+  max-width: 32px;
+  width: 100%;
+  height: auto;
+  padding: 4px;
+  background: rgba(243, 242, 241, 0.5);
+  border-radius: 4px;
+}
+.card__img span {
+  left: 10px;
+  bottom: 10px;
+  padding: 4px 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  background: #ff6633;
+  border-radius: 4px;
+}
+.card__body {
+  padding: 8px;
+}
+.card__body-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.card__body .name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 8px;
+}
+.card__body .rate {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.card__body .card-btn {
+  width: 100%;
+  color: #70c05b;
+  background-color: #fff;
+  padding: 8px;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.card__body .card-btn:hover {
+  box-shadow: 2px 4px 8px rgba(112, 192, 91, 0.2);
+}/*# sourceMappingURL=Card.css.map */
