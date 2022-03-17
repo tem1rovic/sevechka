@@ -115,9 +115,6 @@
   gap: 8.5px;
   cursor: pointer;
 }
-.header__section .header .tool > div:first-child {
-  gap: 12px;
-}
 .header__section .header .profile {
   display: flex;
   justify-content: space-between;
