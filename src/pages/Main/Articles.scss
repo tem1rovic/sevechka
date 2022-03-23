@@ -1,0 +1,42 @@
+.articles__section {
+  margin-bottom: 80px;
+  .articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+
+    .articles__card {
+      position: relative;
+      height: 420px;
+
+      .card__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+
+        .text {
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 150%;
+          color: #414141;
+        }
+
+        .btn {
+          position: absolute;
+          padding: 8px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          left: 10px;
+          bottom: 10px;
+          span {
+            margin: 0 24px;
+          }
+        }
+      }
+    }
+  }
+}

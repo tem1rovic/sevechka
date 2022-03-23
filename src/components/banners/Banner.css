@@ -1,5 +1,6 @@
 .banner__section {
   background-image: url("../../../public/images/banner.png");
+  margin: 80px 0;
 }
 .banner__section .banner {
   display: flex;
@@ -57,7 +58,7 @@
   }
 }
 
-.offerRed__banner {
+.red {
   max-width: 584px;
   width: 100%;
   display: flex;
@@ -68,28 +69,28 @@
   border-radius: 4px;
   transition: all 300ms ease;
 }
-.offerRed__banner:hover {
+.red:hover {
   box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
 }
-.offerRed__banner-info {
+.red .offer__banner-info {
   padding: 30px 20px 44px 40px;
 }
-.offerRed__banner-info p {
+.red .offer__banner-info p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #414141;
 }
-.offerRed__banner-img {
+.red .offer__banner-img {
   max-width: 207px;
   width: 100%;
 }
-.offerRed__banner-img img {
+.red .offer__banner-img img {
   width: 100%;
   transform: scale(1.25);
 }
 
-.offerGreen__banner {
+.green {
   max-width: 584px;
   width: 100%;
   display: flex;
@@ -100,22 +101,22 @@
   border-radius: 4px;
   transition: all 300ms ease;
 }
-.offerGreen__banner:hover {
+.green:hover {
   box-shadow: 4px 8px 16px rgba(112, 192, 91, 0.2);
 }
-.offerGreen__banner-info {
+.green .offer__banner-info {
   padding: 30px 20px 44px 40px;
 }
-.offerGreen__banner-info p {
+.green .offer__banner-info p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #414141;
 }
-.offerGreen__banner-img {
+.green .offer__banner-img {
   max-width: 207px;
   width: 100%;
 }
-.offerGreen__banner-img img {
+.green .offer__banner-img img {
   width: 100%;
 }/*# sourceMappingURL=Banner.css.map */

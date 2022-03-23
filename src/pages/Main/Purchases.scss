@@ -1,12 +1,11 @@
-.stocks__section {
+.purchases__section {
   margin-bottom: 120px;
-  .stocks {
+  .purchases {
     .cards {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 40px;
-
 
       @media (max-width: 768px) {
         gap: 30px;

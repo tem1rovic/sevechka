@@ -1,0 +1,28 @@
+.location__section {
+  margin-bottom: 120px;
+}
+.location__section h3 {
+  margin-bottom: 40px;
+}
+.location__section .location .location__btn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.location__section .location .location__btn .btn span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  margin: 0 8px;
+}
+.location__section .location__img {
+  max-width: 1208px;
+  width: 100%;
+  border-radius: 4px;
+}
+.location__section .location__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Location.css.map */

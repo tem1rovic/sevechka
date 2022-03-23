@@ -1,1 +1,1 @@
-{"version":3,"sources":["Stocks.scss","Stocks.css"],"names":[],"mappings":"AAEI;EACE,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,SAAA;ACDN;ADGM;EANF;IAOI,SAAA;ECAN;AACF;ADCM;EATF;IAUI,SAAA;ECEN;AACF;ADDM;EAZF;IAaI,uBAAA;ECIN;AACF","file":"Stocks.css"}
+{"version":3,"sources":["Stocks.scss","Stocks.css"],"names":[],"mappings":"AAAA;EACE,oBAAA;ACCF;ADCI;EACE,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,SAAA;ACCN;ADEM;EAPF;IAQI,SAAA;ECCN;AACF;ADAM;EAVF;IAWI,SAAA;ECGN;AACF;ADFM;EAbF;IAcI,uBAAA;ECKN;AACF","file":"Stocks.css"}

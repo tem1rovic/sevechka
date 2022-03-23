@@ -1,16 +1,16 @@
 import React from 'react'
 import './Banner.css'
 
-function Banner2() {
+function Banner2({type, title, text, image}) {
   return (
     <>
-        <div className="offerRed__banner">
-            <div className="offerRed__banner-info">
-                <h4>Оформите карту «Северяночка»</h4>
-                <p>И получайте бонусы при покупке в магазинах и на сайте</p>
+        <div className={type}>
+            <div className="offer__banner-info">
+                <h4>{title}</h4>
+                <p>{text}</p>
             </div>
-            <div className="offerRed__banner-img">
-                <img src="images/banner/card.png" alt="card" />
+            <div className="offer__banner-img">
+                <img src={image} alt="card" />
             </div>
         </div>
     </>

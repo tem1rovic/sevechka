@@ -1,43 +1,43 @@
 import React from 'react'
 import Card from '../../components/cards/Card'
 import Head from '../../components/Head/Head'
-import './Stocks.css'
+import './NewProducts.css'
 
-function Stocks() {
+function NewProducts() {
   return (
     <>
-        <div className="stocks__section">
+        <div className="newProducts__section">
             <div className="container">
-                <Head title={"Акции"} more={"Все акции"}/>
-                <div className="stocks">
+                <Head title={"Новинки"} more={"Все новинки"}/>
+                <div className="newProducts">
                     <div className="cards">
                         <Card
-                        stock={"-50%"}
-                        price={{card: "44,50", default: "50,50"}}
+                        stock={false}
+                        price={{card: "-", default: "599,99"}}
                         name={"Г/Ц Блинчики с мясом вес, Россия"}
                         rating={"2"}
-                        image={"images/card/image1.png"}
+                        image={"images/card/image5.png"}
                         />
                         <Card
-                        stock={"-50%"}
-                        price={{card: "44,50", default: "50,50"}}
+                        stock={false}
+                        price={{card: "-", default: "44,50"}}
                         name={"Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное..."}
                         rating={"3"}
-                        image={"images/card/image2.png"}
-                        />
-                        <Card
-                        stock={"-50%"}
-                        price={{card: "44,50", default: "50,50"}}
-                        name={"Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан..."}
-                        rating={"5"}
                         image={"images/card/image3.png"}
                         />
                         <Card
-                        stock={"-50%"}
-                        price={{card: "44,50", default: "50,50"}}
+                        stock={false}
+                        price={{card: "-", default: "159,99"}}
+                        name={"Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан..."}
+                        rating={"5"}
+                        image={"images/card/image4.png"}
+                        />
+                        <Card
+                        stock={false}
+                        price={{card: "-", default: "49,39"}}
                         name={"Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро..."}
                         rating={"4"}
-                        image={"images/card/image4.png"}
+                        image={"images/card/image2.png"}
                         />
 
                     </div>
@@ -48,4 +48,4 @@ function Stocks() {
   )
 }
 
-export default Stocks
+export default NewProducts

@@ -1,24 +1,24 @@
-.stocks__section {
+.purchases__section {
   margin-bottom: 120px;
 }
-.stocks__section .stocks .cards {
+.purchases__section .purchases .cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
 @media (max-width: 768px) {
-  .stocks__section .stocks .cards {
+  .purchases__section .purchases .cards {
     gap: 30px;
   }
 }
 @media (max-width: 480px) {
-  .stocks__section .stocks .cards {
+  .purchases__section .purchases .cards {
     gap: 20px;
   }
 }
 @media (max-width: 420px) {
-  .stocks__section .stocks .cards {
+  .purchases__section .purchases .cards {
     justify-content: center;
   }
-}/*# sourceMappingURL=Stocks.css.map */
+}/*# sourceMappingURL=Purchases.css.map */

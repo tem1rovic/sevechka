@@ -3,7 +3,10 @@ import Banner from '../components/banners/Banner'
 import Header from '../components/Header/Header'
 import Offer from './Main/Offer'
 import Stocks from './Main/Stocks'
-
+import Location from './Main/Location'
+import NewProducts from './Main/NewProducts'
+import Purchases from './Main/Purchases'
+import Articles from './Main/Articles'
 
 
 function Main() {
@@ -11,15 +14,12 @@ function Main() {
     <>
         <Header/>
         <Banner/>
-        <div className="gap80"></div>
         <Stocks/>
-        <div className="gap120"></div>
-        <Stocks/>
-        <div className="gap120"></div>
-        <Stocks/>
-        <div className="gap120"></div>
+        <NewProducts/>
+        <Purchases/>
         <Offer/>
-        <div className="gap120"></div>
+        <Location/>
+        <Articles/>
 
     </>
   )

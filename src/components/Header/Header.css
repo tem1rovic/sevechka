@@ -1,4 +1,9 @@
 .header__section {
+  z-index: 123;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #FFFFFF;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .header__section .header {

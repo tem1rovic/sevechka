@@ -1,24 +1,24 @@
-.stocks__section {
+.newProducts__section {
   margin-bottom: 120px;
 }
-.stocks__section .stocks .cards {
+.newProducts__section .newProducts .cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
 @media (max-width: 768px) {
-  .stocks__section .stocks .cards {
+  .newProducts__section .newProducts .cards {
     gap: 30px;
   }
 }
 @media (max-width: 480px) {
-  .stocks__section .stocks .cards {
+  .newProducts__section .newProducts .cards {
     gap: 20px;
   }
 }
 @media (max-width: 420px) {
-  .stocks__section .stocks .cards {
+  .newProducts__section .newProducts .cards {
     justify-content: center;
   }
-}/*# sourceMappingURL=Stocks.css.map */
+}/*# sourceMappingURL=NewProducts.css.map */
