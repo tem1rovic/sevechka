@@ -428,6 +428,7 @@ button {
   background-color: transparent;
   border-radius: 4px;
   padding: 4px 8px;
+  cursor: pointer;
 }
 
 button[data-type=green] {
@@ -518,14 +519,10 @@ body {
   background: #fbf8ec;
 }
 
-.gap40 {
-  height: 40px;
+.push_right {
+  margin-left: auto;
 }
 
-.gap80 {
-  height: 80px;
-}
-
-.gap120 {
-  height: 120px;
+.push_left {
+  margin-right: auto;
 }/*# sourceMappingURL=index.css.map */

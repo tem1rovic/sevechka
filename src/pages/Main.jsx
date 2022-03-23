@@ -7,6 +7,7 @@ import Location from './Main/Location'
 import NewProducts from './Main/NewProducts'
 import Purchases from './Main/Purchases'
 import Articles from './Main/Articles'
+import Footer from '../components/Footer/Footer'
 
 
 function Main() {
@@ -20,7 +21,7 @@ function Main() {
         <Offer/>
         <Location/>
         <Articles/>
-
+        <Footer/>
     </>
   )
 }

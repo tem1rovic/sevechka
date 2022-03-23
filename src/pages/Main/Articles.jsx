@@ -8,7 +8,7 @@ function Articles() {
     <>
       <div className="articles__section">
         <div className="container">
-          <Head title={"Статьи"} more={"Все статьи"}/>
+          <Head title={"Статьи"} more={"Все статьи"} action={"/articles"}/>
           <div className="articles">
             <ArticlesCard
             image={"images/articles/image1.png"}

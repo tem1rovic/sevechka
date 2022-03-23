@@ -8,7 +8,7 @@ function NewProducts() {
     <>
         <div className="newProducts__section">
             <div className="container">
-                <Head title={"Новинки"} more={"Все новинки"}/>
+                <Head title={"Новинки"} more={"Все новинки"} action={"/new-prod"}/>
                 <div className="newProducts">
                     <div className="cards">
                         <Card

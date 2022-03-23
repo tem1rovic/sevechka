@@ -6,10 +6,10 @@ import './Purchases.css'
 function Purchases() {
   return (
     <>
-        <div className="newProducts__section">
+        <div className="purchases__section">
             <div className="container">
-                    <Head title={"Покупали раньше"} more={"Все покупки"}/>
-                <div className="newProducts">
+                    <Head title={"Покупали раньше"} more={"Все покупки"} action={"/purcheas"}/>
+                <div className="purchases">
                     <div className="cards">
                         <Card
                         stock={false}

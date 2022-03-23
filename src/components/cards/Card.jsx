@@ -31,7 +31,7 @@ function Card({stock, price, name, rating, image}) {
                         style={{fontWeight: isStock ? "400" : "700" }}
                         ><span>{price.default}</span> ₽</h6>
                         <p
-                        style={{visibility: isStock ? "visibile" : "hidden" }}
+                        style={{visibility: isStock ? "visible" : "hidden" }}
                         >Обычная</p>
                     </div>
                 </div>

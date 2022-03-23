@@ -8,7 +8,7 @@ function Stocks() {
     <>
         <div className="stocks__section">
             <div className="container">
-                <Head title={"Акции"} more={"Все акции"}/>
+                <Head title={"Акции"} more={"Все акции"} action={"stocks"}/>
                 <div className="stocks">
                     <div className="cards">
                         <Card
